@@ -1,0 +1,36 @@
+
+.loader9 {
+  display: flex;
+}
+
+.loader9 div {
+  width: 20px;
+  height: 20px;
+  border-radius: 11px;
+  animation: 2s loader9-animation ease infinite;
+}
+
+.loader9 div:nth-child(1) {
+  background-color: #333333;
+}
+
+.loader9 div:nth-child(2) {
+  background-color: #666666;
+  animation-delay: 0.25s;
+}
+
+.loader9 div:nth-child(3) {
+  background-color: #999999;
+  animation-delay: 0.5s;
+}
+
+.loader9 div:nth-child(4) {
+  background-color: #cccccc;
+  animation-delay: 0.75s;
+}
+
+@keyframes loader9-animation {
+  50% {
+    transform: translateY(25px);
+  }
+}

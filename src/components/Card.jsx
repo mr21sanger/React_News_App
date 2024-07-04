@@ -8,7 +8,7 @@ function Card({ display }) {
     else return (
         <>
             <div>
-                <div class="card  max-w-sm bg-gray-400 border border-gray-800 rounded-lg hover:-translate-y-2 transition-all duration-300 shadow-black shadow-md" style={{height:"70vh"}}>
+                <div class="card max-w-sm bg-gray-400 border border-gray-800 rounded-lg hover:-translate-y-2 transition-all duration-300 shadow-black shadow-md" style={{height:"70vh"}}>
                     <a href={url} target='_blank'>
                         <img class="rounded-t-lg h-64 w-full text-white " src={`${urlToImage}`} alt="image not found" />
                     </a>
